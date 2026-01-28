@@ -1,0 +1,28 @@
+.uplot .legend .series:first-child,
+.uplot .legend .series th::after,
+.uplot .legend .series td {
+  display: none;
+}
+
+.lib-toggles {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.hidden {
+  color: silver;
+}
+
+.u-cursor-pt {
+  border-radius: 0;
+}
+
+.uplot {
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
