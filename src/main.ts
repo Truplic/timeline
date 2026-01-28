@@ -1,5 +1,5 @@
 import uPlot, { type Options } from "uplot";
-import { timelinePlugin, wheelZoomPlugin } from "./plugins";
+import { timelinePlugin, wheelZoomPlugin, wheelDragPlugin } from "./plugins";
 import "uplot/dist/uPlot.min.css";
 import "./timeline.css";
 
@@ -76,6 +76,7 @@ const makeChart = (
         ...options,
       }),
       wheelZoomPlugin(),
+      wheelDragPlugin(),
     ],
   };
 
