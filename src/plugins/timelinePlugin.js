@@ -1,6 +1,6 @@
 import uPlot from "uplot";
-import { Quadtree, pointWithin } from "./libs/quadTree.js";
-import { distr, SPACE_BETWEEN } from "./libs/distr.js";
+import { Quadtree, pointWithin } from "../libs/quadTree.js";
+import { distr, SPACE_BETWEEN } from "../libs/distr.js";
 
 const { round, min, ceil } = Math;
 

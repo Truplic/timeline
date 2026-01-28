@@ -11,7 +11,7 @@ const coord = (i, offs, iwid, gap) => roundDec(offs + i * (iwid + gap), 6);
 export const distr = (numItems, sizeFactor, justify, onlyIdx, each) => {
   const space = 1 - sizeFactor;
 
-  const gap =
+  let gap =
     justify == SPACE_BETWEEN
       ? space / (numItems - 1)
       : justify == SPACE_AROUND
